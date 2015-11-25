@@ -14,6 +14,7 @@
 		85249C5E1C060C7100CAA3B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85249C5C1C060C7100CAA3B1 /* LaunchScreen.storyboard */; };
 		85249C691C060C7100CAA3B1 /* ColorHashTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85249C681C060C7100CAA3B1 /* ColorHashTests.swift */; };
 		85249C741C060C7100CAA3B1 /* ColorHashUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85249C731C060C7100CAA3B1 /* ColorHashUITests.swift */; };
+		85249C821C060CD800CAA3B1 /* ColorHash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85249C811C060CD800CAA3B1 /* ColorHash.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		85249C6F1C060C7100CAA3B1 /* ColorHashUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColorHashUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		85249C731C060C7100CAA3B1 /* ColorHashUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorHashUITests.swift; sourceTree = "<group>"; };
 		85249C751C060C7100CAA3B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85249C811C060CD800CAA3B1 /* ColorHash.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorHash.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		85249C521C060C7100CAA3B1 /* ColorHash */ = {
 			isa = PBXGroup;
 			children = (
+				85249C811C060CD800CAA3B1 /* ColorHash.swift */,
 				85249C531C060C7100CAA3B1 /* AppDelegate.swift */,
 				85249C551C060C7100CAA3B1 /* ViewController.swift */,
 				85249C571C060C7100CAA3B1 /* Main.storyboard */,
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85249C821C060CD800CAA3B1 /* ColorHash.swift in Sources */,
 				85249C561C060C7100CAA3B1 /* ViewController.swift in Sources */,
 				85249C541C060C7100CAA3B1 /* AppDelegate.swift in Sources */,
 			);
@@ -482,6 +486,7 @@
 				85249C7A1C060C7100CAA3B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		85249C7B1C060C7100CAA3B1 /* Build configuration list for PBXNativeTarget "ColorHashTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +495,7 @@
 				85249C7D1C060C7100CAA3B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		85249C7E1C060C7100CAA3B1 /* Build configuration list for PBXNativeTarget "ColorHashUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +504,7 @@
 				85249C801C060C7100CAA3B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
