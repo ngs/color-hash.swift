@@ -20,7 +20,7 @@ public class ColorHash {
     public var str: String { return _str }
     public var lightness: [CGFloat] { return _lightness }
     public var saturation: [CGFloat] { return _saturation }
-    init(_ str: String, _ saturation: [CGFloat] = defaultLS, _ lightness: [CGFloat] = defaultLS) {
+    public init(_ str: String, _ saturation: [CGFloat] = defaultLS, _ lightness: [CGFloat] = defaultLS) {
         _str = str
         _saturation = saturation
         _lightness = lightness
