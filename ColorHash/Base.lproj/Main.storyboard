@@ -9,7 +9,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="BKDRColor" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ColorHash" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -45,7 +45,14 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lightness" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Vn-v1-eF1">
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="4Fz-1N-QVK">
+                                <rect key="frame" x="198" y="160" width="344" height="31"/>
+                                <animations/>
+                                <connections>
+                                    <action selector="sliderValueChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="aXI-7j-XZm"/>
+                                </connections>
+                            </slider>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Brightness" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Vn-v1-eF1">
                                 <rect key="frame" x="60" y="155" width="120" height="40"/>
                                 <animations/>
                                 <constraints>
@@ -56,13 +63,6 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="4Fz-1N-QVK">
-                                <rect key="frame" x="198" y="160" width="344" height="31"/>
-                                <animations/>
-                                <connections>
-                                    <action selector="sliderValueChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="aXI-7j-XZm"/>
-                                </connections>
-                            </slider>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
@@ -89,8 +89,8 @@
                         </variation>
                     </view>
                     <connections>
-                        <outlet property="lightnessLabel" destination="3Vn-v1-eF1" id="BQl-sj-Rm4"/>
-                        <outlet property="lightnessSlider" destination="4Fz-1N-QVK" id="OO1-yh-OR5"/>
+                        <outlet property="brightnessLabel" destination="3Vn-v1-eF1" id="boQ-Dj-51s"/>
+                        <outlet property="brightnessSlider" destination="4Fz-1N-QVK" id="5zQ-Bi-icV"/>
                         <outlet property="saturationLabel" destination="Zy2-ek-aUw" id="PE8-RR-YGL"/>
                         <outlet property="saturationSlider" destination="9wM-e4-yqp" id="TUM-Iu-DfY"/>
                         <outlet property="textField" destination="rSr-Hd-gY3" id="Qu9-dM-SjW"/>

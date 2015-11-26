@@ -12,16 +12,16 @@ class ViewController: UIViewController, UITextFieldDelegate {
 
     @IBOutlet weak var textField: UITextField!
     @IBOutlet weak var saturationSlider: UISlider!
-    @IBOutlet weak var lightnessSlider: UISlider!
+    @IBOutlet weak var brightnessSlider: UISlider!
     @IBOutlet weak var saturationLabel: UILabel!
-    @IBOutlet weak var lightnessLabel: UILabel!
+    @IBOutlet weak var brightnessLabel: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
         let def = NSUserDefaults.standardUserDefaults()
         def.registerDefaults(["str": "Hello World", "s": 0.5, "l": 0.5 ])
         textField.text = def.stringForKey("str")
         saturationSlider.value = def.floatForKey("s")
-        lightnessSlider.value = def.floatForKey("l")
+        brightnessSlider.value = def.floatForKey("l")
         updateBackgroundColor()
     }
 
@@ -36,10 +36,10 @@ class ViewController: UIViewController, UITextFieldDelegate {
 
     private func updateBackgroundColor(var str: String? = nil) {
         let s = saturationSlider.value
-        let l = lightnessSlider.value
+        let l = brightnessSlider.value
         str = str ?? textField.text!
         saturationLabel.text = "Saturation\n\(s)"
-        lightnessLabel.text = "Lightness\n\(l)"
+        brightnessLabel.text = "Brightness\n\(l)"
         view.backgroundColor = ColorHash(str!, [CGFloat(s)], [CGFloat(l)]).color
         let def = NSUserDefaults.standardUserDefaults()
         def.setFloat(s, forKey: "s")
