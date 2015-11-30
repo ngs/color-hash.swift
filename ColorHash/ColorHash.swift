@@ -41,9 +41,9 @@ public class ColorHash {
         var hash = CGFloat(bkdrHash)
         let H = (hash % (full - 1.0)) / full
         hash /= full
-        let S = saturation[Int(full * hash) % saturation.count]
+        let S = saturation[Int((full * hash) % CGFloat(saturation.count))]
         hash /= CGFloat(saturation.count)
-        let B = brightness[Int(full * hash) % brightness.count]
+        let B = brightness[Int((full * hash) % CGFloat(brightness.count))]
         return (H, S, B)
     }
     public var color: UIColor {
