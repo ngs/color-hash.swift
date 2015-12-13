@@ -2,12 +2,42 @@
 
 This is a Swift port of [Color Hash](https://github.com/zenozeng/color-hash).
 
-```swift
-let str = "こんにちは、世界"
-let saturation = 0.30
-let lightness = 0.70
+Generates `UIColor` and `NSColor` from given string.
 
-ColorHash(str, [CGFloat(saturation)], [CGFloat(lightness)]).color
+```swift
+import ColorHash
+
+let str = "こんにちは、世界"
+let saturation: CGFloat = 0.30
+let lightness: CGFloat = 0.70
+
+ColorHash(str, [saturation], [lightness]).color
 ```
 
-![Screen](Screen.png)
+![Screen](screen.gif)
+
+Install
+-------
+
+### CocoaPods
+
+```rb
+pod 'ColorHash'
+```
+
+### Carthage
+
+```rb
+github 'ngs/color-hash.swift'
+```
+
+
+Author
+------
+
+[Atsushi NAGASE](http://ngs.io)
+
+License
+-------
+
+See [LICENSE](./LICENSE)

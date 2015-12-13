@@ -7,7 +7,11 @@
 //
 
 import Foundation
-import UIKit
+#if os(iOS) || os(tvOS)
+    import UIKit
+#elseif os(OSX)
+    import Cocoa
+#endif
 
 let seed: CGFloat = 131.0
 let seed2: CGFloat = 137.0
@@ -46,8 +50,16 @@ public class ColorHash {
         let B = brightness[Int((full * hash) % CGFloat(brightness.count))]
         return (H, S, B)
     }
+
+    #if os(iOS) || os(tvOS)
     public var color: UIColor {
         let (H, S, B) = HSB
         return UIColor(hue: H, saturation: S, brightness: B, alpha: 1.0)
     }
+    #elseif os(OSX)
+    public var color: NSColor {
+    let (H, S, B) = HSB
+    return NSColor(hue: H, saturation: S, brightness: B, alpha: 1.0)
+    }
+    #endif
 }

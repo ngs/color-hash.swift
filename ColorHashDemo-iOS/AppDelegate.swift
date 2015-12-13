@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  ColorHash
+//  ColorHashDemo-iOS
 //
-//  Created by Atsushi Nagase on 11/26/15.
+//  Created by Atsushi Nagase on 12/13/15.
 //  Copyright © 2015 LittleApps Inc. All rights reserved.
 //
 
