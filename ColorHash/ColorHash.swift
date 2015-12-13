@@ -9,28 +9,29 @@
 import Foundation
 #if os(iOS) || os(tvOS)
     import UIKit
+#elseif os(watchOS)
+    import WatchKit
 #elseif os(OSX)
     import Cocoa
 #endif
 
-let seed: CGFloat = 131.0
-let seed2: CGFloat = 137.0
+let seed = CGFloat(131.0)
+let seed2 = CGFloat(137.0)
 let maxSafeInteger = 9007199254740991.0 / seed2
-let defaultLS: [CGFloat] = [0.35, 0.5, 0.65]
-let full: CGFloat = 360.0
+let defaultLS = [CGFloat(0.35), CGFloat(0.5), CGFloat(0.65)]
+let full = CGFloat(360.0)
 
 public class ColorHash {
-    private var _str: String, _brightness: [CGFloat], _saturation: [CGFloat]
-    public var str: String { return _str }
-    public var brightness: [CGFloat] { return _brightness }
-    public var saturation: [CGFloat] { return _saturation }
+    public private(set) var str: String
+    public private(set) var brightness: [CGFloat]
+    public private(set) var saturation: [CGFloat]
     public init(_ str: String, _ saturation: [CGFloat] = defaultLS, _ brightness: [CGFloat] = defaultLS) {
-        _str = str
-        _saturation = saturation
-        _brightness = brightness
+        self.str = str
+        self.saturation = saturation
+        self.brightness = brightness
     }
     public var bkdrHash: CGFloat {
-        var hash: CGFloat = 0
+        var hash = CGFloat(0)
         for char in "\(str)x".characters {
             if let scl = String(char).unicodeScalars.first?.value {
                 if hash > maxSafeInteger {
@@ -51,7 +52,7 @@ public class ColorHash {
         return (H, S, B)
     }
 
-    #if os(iOS) || os(tvOS)
+    #if os(iOS) || os(tvOS) || os(watchOS)
     public var color: UIColor {
         let (H, S, B) = HSB
         return UIColor(hue: H, saturation: S, brightness: B, alpha: 1.0)
