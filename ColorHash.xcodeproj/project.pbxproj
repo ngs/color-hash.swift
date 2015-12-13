@@ -11,14 +11,70 @@
 		85154F7A1C1D28D50006085B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85154F781C1D28D50006085B /* Main.storyboard */; };
 		85154F7C1C1D28D50006085B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85154F7B1C1D28D50006085B /* Assets.xcassets */; };
 		85154F7F1C1D28D50006085B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85154F7D1C1D28D50006085B /* LaunchScreen.storyboard */; };
-		85154F851C1D293C0006085B /* ColorHash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85154F841C1D293C0006085B /* ColorHash.swift */; };
 		85154F8D1C1D2B500006085B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85154F8C1C1D2B500006085B /* AppDelegate.swift */; };
 		85154F911C1D2B500006085B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85154F901C1D2B500006085B /* Assets.xcassets */; };
 		85154F941C1D2B500006085B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85154F921C1D2B500006085B /* Main.storyboard */; };
-		85154F991C1D2B780006085B /* ColorHash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85154F841C1D293C0006085B /* ColorHash.swift */; };
-		85154F9B1C1D2C300006085B /* ColorHashDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85154F9A1C1D2C300006085B /* ColorHashDemoViewController.swift */; };
-		85154F9C1C1D2C7F0006085B /* ColorHashDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85154F9A1C1D2C300006085B /* ColorHashDemoViewController.swift */; };
+		85154FB11C1D48340006085B /* ColorHashDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85154FB01C1D48340006085B /* ColorHashDemoViewController.swift */; };
+		85154FB21C1D48390006085B /* ColorHashDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85154FB01C1D48340006085B /* ColorHashDemoViewController.swift */; };
+		85154FB91C1D485A0006085B /* ColorHash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85154FB81C1D485A0006085B /* ColorHash.swift */; };
+		85154FBA1C1D485A0006085B /* ColorHash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85154FB81C1D485A0006085B /* ColorHash.swift */; };
+		85154FC11C1D4F230006085B /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85154FBF1C1D4F230006085B /* Interface.storyboard */; };
+		85154FC31C1D4F230006085B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85154FC21C1D4F230006085B /* Assets.xcassets */; };
+		85154FCA1C1D4F230006085B /* ColorHashDemo-watchOS Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 85154FC91C1D4F230006085B /* ColorHashDemo-watchOS Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		85154FD11C1D4F230006085B /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85154FD01C1D4F230006085B /* InterfaceController.swift */; };
+		85154FD31C1D4F230006085B /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85154FD21C1D4F230006085B /* ExtensionDelegate.swift */; };
+		85154FD51C1D4F230006085B /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85154FD41C1D4F230006085B /* NotificationController.swift */; };
+		85154FD71C1D4F230006085B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85154FD61C1D4F230006085B /* Assets.xcassets */; };
+		85154FDB1C1D4F230006085B /* ColorHashDemo-watchOS.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 85154FBD1C1D4F230006085B /* ColorHashDemo-watchOS.app */; };
+		85154FE41C1D4F3D0006085B /* ColorHash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85154FB81C1D485A0006085B /* ColorHash.swift */; };
+		85154FEC1C1D50D10006085B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85154FEB1C1D50D10006085B /* AppDelegate.swift */; };
+		85154FEE1C1D50D10006085B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85154FED1C1D50D10006085B /* ViewController.swift */; };
+		85154FF11C1D50D10006085B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85154FEF1C1D50D10006085B /* Main.storyboard */; };
+		85154FF31C1D50D10006085B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85154FF21C1D50D10006085B /* Assets.xcassets */; };
+		85154FF81C1D50E40006085B /* ColorHash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85154FB81C1D485A0006085B /* ColorHash.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		85154FCB1C1D4F230006085B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 85249C481C060C7100CAA3B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 85154FC81C1D4F230006085B;
+			remoteInfo = "ColorHashDemo-watchOS Extension";
+		};
+		85154FD91C1D4F230006085B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 85249C481C060C7100CAA3B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 85154FBC1C1D4F230006085B;
+			remoteInfo = "ColorHashDemo-watchOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		85154FE11C1D4F230006085B /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				85154FCA1C1D4F230006085B /* ColorHashDemo-watchOS Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85154FE31C1D4F230006085B /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				85154FDB1C1D4F230006085B /* ColorHashDemo-watchOS.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		85154F721C1D28D50006085B /* ColorHashDemo-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ColorHashDemo-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -27,13 +83,30 @@
 		85154F7B1C1D28D50006085B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		85154F7E1C1D28D50006085B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		85154F801C1D28D50006085B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		85154F841C1D293C0006085B /* ColorHash.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorHash.swift; sourceTree = "<group>"; };
 		85154F8A1C1D2B500006085B /* ColorHashDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorHashDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		85154F8C1C1D2B500006085B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		85154F901C1D2B500006085B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		85154F931C1D2B500006085B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		85154F951C1D2B500006085B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		85154F9A1C1D2C300006085B /* ColorHashDemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorHashDemoViewController.swift; sourceTree = "<group>"; };
+		85154FB01C1D48340006085B /* ColorHashDemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorHashDemoViewController.swift; sourceTree = "<group>"; };
+		85154FB81C1D485A0006085B /* ColorHash.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorHash.swift; sourceTree = "<group>"; };
+		85154FBD1C1D4F230006085B /* ColorHashDemo-watchOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ColorHashDemo-watchOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		85154FC01C1D4F230006085B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		85154FC21C1D4F230006085B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		85154FC41C1D4F230006085B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85154FC91C1D4F230006085B /* ColorHashDemo-watchOS Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "ColorHashDemo-watchOS Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		85154FCF1C1D4F230006085B /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		85154FD01C1D4F230006085B /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		85154FD21C1D4F230006085B /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		85154FD41C1D4F230006085B /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		85154FD61C1D4F230006085B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		85154FD81C1D4F230006085B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85154FE91C1D50D10006085B /* ColorHashDemo-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ColorHashDemo-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		85154FEB1C1D50D10006085B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		85154FED1C1D50D10006085B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		85154FF01C1D50D10006085B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		85154FF21C1D50D10006085B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		85154FF41C1D50D10006085B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +118,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		85154F871C1D2B500006085B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85154FC61C1D4F230006085B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85154FE61C1D50D10006085B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -69,6 +156,7 @@
 		85154F8B1C1D2B500006085B /* ColorHashDemo */ = {
 			isa = PBXGroup;
 			children = (
+				85154FB01C1D48340006085B /* ColorHashDemoViewController.swift */,
 				85154F8C1C1D2B500006085B /* AppDelegate.swift */,
 				85154F901C1D2B500006085B /* Assets.xcassets */,
 				85154F921C1D2B500006085B /* Main.storyboard */,
@@ -77,13 +165,66 @@
 			path = ColorHashDemo;
 			sourceTree = "<group>";
 		};
+		85154FB71C1D485A0006085B /* ColorHash */ = {
+			isa = PBXGroup;
+			children = (
+				85154FB81C1D485A0006085B /* ColorHash.swift */,
+			);
+			path = ColorHash;
+			sourceTree = "<group>";
+		};
+		85154FBE1C1D4F230006085B /* ColorHashDemo-watchOS */ = {
+			isa = PBXGroup;
+			children = (
+				85154FBF1C1D4F230006085B /* Interface.storyboard */,
+				85154FC21C1D4F230006085B /* Assets.xcassets */,
+				85154FC41C1D4F230006085B /* Info.plist */,
+			);
+			path = "ColorHashDemo-watchOS";
+			sourceTree = "<group>";
+		};
+		85154FCD1C1D4F230006085B /* ColorHashDemo-watchOS Extension */ = {
+			isa = PBXGroup;
+			children = (
+				85154FD01C1D4F230006085B /* InterfaceController.swift */,
+				85154FD21C1D4F230006085B /* ExtensionDelegate.swift */,
+				85154FD41C1D4F230006085B /* NotificationController.swift */,
+				85154FD61C1D4F230006085B /* Assets.xcassets */,
+				85154FD81C1D4F230006085B /* Info.plist */,
+				85154FCE1C1D4F230006085B /* Supporting Files */,
+			);
+			path = "ColorHashDemo-watchOS Extension";
+			sourceTree = "<group>";
+		};
+		85154FCE1C1D4F230006085B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				85154FCF1C1D4F230006085B /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		85154FEA1C1D50D10006085B /* ColorHashDemo-tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				85154FEB1C1D50D10006085B /* AppDelegate.swift */,
+				85154FED1C1D50D10006085B /* ViewController.swift */,
+				85154FEF1C1D50D10006085B /* Main.storyboard */,
+				85154FF21C1D50D10006085B /* Assets.xcassets */,
+				85154FF41C1D50D10006085B /* Info.plist */,
+			);
+			path = "ColorHashDemo-tvOS";
+			sourceTree = "<group>";
+		};
 		85249C471C060C7100CAA3B1 = {
 			isa = PBXGroup;
 			children = (
-				85154F9A1C1D2C300006085B /* ColorHashDemoViewController.swift */,
-				85154F841C1D293C0006085B /* ColorHash.swift */,
+				85154FB71C1D485A0006085B /* ColorHash */,
 				85154F731C1D28D50006085B /* ColorHashDemo-iOS */,
 				85154F8B1C1D2B500006085B /* ColorHashDemo */,
+				85154FBE1C1D4F230006085B /* ColorHashDemo-watchOS */,
+				85154FCD1C1D4F230006085B /* ColorHashDemo-watchOS Extension */,
+				85154FEA1C1D50D10006085B /* ColorHashDemo-tvOS */,
 				85249C511C060C7100CAA3B1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -93,6 +234,9 @@
 			children = (
 				85154F721C1D28D50006085B /* ColorHashDemo-iOS.app */,
 				85154F8A1C1D2B500006085B /* ColorHashDemo.app */,
+				85154FBD1C1D4F230006085B /* ColorHashDemo-watchOS.app */,
+				85154FC91C1D4F230006085B /* ColorHashDemo-watchOS Extension.appex */,
+				85154FE91C1D50D10006085B /* ColorHashDemo-tvOS.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -107,10 +251,12 @@
 				85154F6E1C1D28D50006085B /* Sources */,
 				85154F6F1C1D28D50006085B /* Frameworks */,
 				85154F701C1D28D50006085B /* Resources */,
+				85154FE31C1D4F230006085B /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				85154FDA1C1D4F230006085B /* PBXTargetDependency */,
 			);
 			name = "ColorHashDemo-iOS";
 			productName = "ColorHashDemo-iOS";
@@ -134,6 +280,57 @@
 			productReference = 85154F8A1C1D2B500006085B /* ColorHashDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
+		85154FBC1C1D4F230006085B /* ColorHashDemo-watchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85154FE21C1D4F230006085B /* Build configuration list for PBXNativeTarget "ColorHashDemo-watchOS" */;
+			buildPhases = (
+				85154FBB1C1D4F230006085B /* Resources */,
+				85154FE11C1D4F230006085B /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				85154FCC1C1D4F230006085B /* PBXTargetDependency */,
+			);
+			name = "ColorHashDemo-watchOS";
+			productName = "ColorHashDemo-watchOS";
+			productReference = 85154FBD1C1D4F230006085B /* ColorHashDemo-watchOS.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		85154FC81C1D4F230006085B /* ColorHashDemo-watchOS Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85154FE01C1D4F230006085B /* Build configuration list for PBXNativeTarget "ColorHashDemo-watchOS Extension" */;
+			buildPhases = (
+				85154FC51C1D4F230006085B /* Sources */,
+				85154FC61C1D4F230006085B /* Frameworks */,
+				85154FC71C1D4F230006085B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ColorHashDemo-watchOS Extension";
+			productName = "ColorHashDemo-watchOS Extension";
+			productReference = 85154FC91C1D4F230006085B /* ColorHashDemo-watchOS Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		85154FE81C1D50D10006085B /* ColorHashDemo-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85154FF71C1D50D10006085B /* Build configuration list for PBXNativeTarget "ColorHashDemo-tvOS" */;
+			buildPhases = (
+				85154FE51C1D50D10006085B /* Sources */,
+				85154FE61C1D50D10006085B /* Frameworks */,
+				85154FE71C1D50D10006085B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ColorHashDemo-tvOS";
+			productName = "ColorHashDemo-tvOS";
+			productReference = 85154FE91C1D50D10006085B /* ColorHashDemo-tvOS.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -148,6 +345,15 @@
 						CreatedOnToolsVersion = 7.1.1;
 					};
 					85154F891C1D2B500006085B = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					85154FBC1C1D4F230006085B = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					85154FC81C1D4F230006085B = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					85154FE81C1D50D10006085B = {
 						CreatedOnToolsVersion = 7.1.1;
 					};
 				};
@@ -167,6 +373,9 @@
 			targets = (
 				85154F711C1D28D50006085B /* ColorHashDemo-iOS */,
 				85154F891C1D2B500006085B /* ColorHashDemo */,
+				85154FBC1C1D4F230006085B /* ColorHashDemo-watchOS */,
+				85154FC81C1D4F230006085B /* ColorHashDemo-watchOS Extension */,
+				85154FE81C1D50D10006085B /* ColorHashDemo-tvOS */,
 			);
 		};
 /* End PBXProject section */
@@ -191,6 +400,32 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		85154FBB1C1D4F230006085B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85154FC31C1D4F230006085B /* Assets.xcassets in Resources */,
+				85154FC11C1D4F230006085B /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85154FC71C1D4F230006085B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85154FD71C1D4F230006085B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85154FE71C1D50D10006085B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85154FF31C1D50D10006085B /* Assets.xcassets in Resources */,
+				85154FF11C1D50D10006085B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -198,9 +433,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				85154F851C1D293C0006085B /* ColorHash.swift in Sources */,
-				85154F9B1C1D2C300006085B /* ColorHashDemoViewController.swift in Sources */,
+				85154FB91C1D485A0006085B /* ColorHash.swift in Sources */,
 				85154F751C1D28D50006085B /* AppDelegate.swift in Sources */,
+				85154FB21C1D48390006085B /* ColorHashDemoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,13 +443,47 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				85154F991C1D2B780006085B /* ColorHash.swift in Sources */,
-				85154F9C1C1D2C7F0006085B /* ColorHashDemoViewController.swift in Sources */,
+				85154FBA1C1D485A0006085B /* ColorHash.swift in Sources */,
 				85154F8D1C1D2B500006085B /* AppDelegate.swift in Sources */,
+				85154FB11C1D48340006085B /* ColorHashDemoViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85154FC51C1D4F230006085B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85154FD51C1D4F230006085B /* NotificationController.swift in Sources */,
+				85154FE41C1D4F3D0006085B /* ColorHash.swift in Sources */,
+				85154FD31C1D4F230006085B /* ExtensionDelegate.swift in Sources */,
+				85154FD11C1D4F230006085B /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85154FE51C1D50D10006085B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85154FF81C1D50E40006085B /* ColorHash.swift in Sources */,
+				85154FEE1C1D50D10006085B /* ViewController.swift in Sources */,
+				85154FEC1C1D50D10006085B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		85154FCC1C1D4F230006085B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 85154FC81C1D4F230006085B /* ColorHashDemo-watchOS Extension */;
+			targetProxy = 85154FCB1C1D4F230006085B /* PBXContainerItemProxy */;
+		};
+		85154FDA1C1D4F230006085B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 85154FBC1C1D4F230006085B /* ColorHashDemo-watchOS */;
+			targetProxy = 85154FD91C1D4F230006085B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		85154F781C1D28D50006085B /* Main.storyboard */ = {
@@ -237,6 +506,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				85154F931C1D2B500006085B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		85154FBF1C1D4F230006085B /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				85154FC01C1D4F230006085B /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+		85154FEF1C1D50D10006085B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				85154FF01C1D50D10006085B /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -295,6 +580,96 @@
 				PRODUCT_BUNDLE_IDENTIFIER = io.ngs.ColorHashDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		85154FDC1C1D4F230006085B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = ColorHashDemo_watchOS_Extension;
+				INFOPLIST_FILE = "ColorHashDemo-watchOS/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.ngs.ColorHashDemo-iOS.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		85154FDD1C1D4F230006085B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = ColorHashDemo_watchOS_Extension;
+				INFOPLIST_FILE = "ColorHashDemo-watchOS/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.ngs.ColorHashDemo-iOS.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		85154FDE1C1D4F230006085B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "ColorHashDemo-watchOS Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.ngs.ColorHashDemo-iOS.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		85154FDF1C1D4F230006085B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "ColorHashDemo-watchOS Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.ngs.ColorHashDemo-iOS.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		85154FF51C1D50D10006085B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "ColorHashDemo-tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.ngs.ColorHashDemo-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		85154FF61C1D50D10006085B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "ColorHashDemo-tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.ngs.ColorHashDemo-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
 			};
 			name = Release;
 		};
@@ -389,12 +764,40 @@
 				85154F821C1D28D50006085B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		85154F961C1D2B500006085B /* Build configuration list for PBXNativeTarget "ColorHashDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				85154F971C1D2B500006085B /* Debug */,
 				85154F981C1D2B500006085B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85154FE01C1D4F230006085B /* Build configuration list for PBXNativeTarget "ColorHashDemo-watchOS Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85154FDE1C1D4F230006085B /* Debug */,
+				85154FDF1C1D4F230006085B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85154FE21C1D4F230006085B /* Build configuration list for PBXNativeTarget "ColorHashDemo-watchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85154FDC1C1D4F230006085B /* Debug */,
+				85154FDD1C1D4F230006085B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85154FF71C1D50D10006085B /* Build configuration list for PBXNativeTarget "ColorHashDemo-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85154FF51C1D50D10006085B /* Debug */,
+				85154FF61C1D50D10006085B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
