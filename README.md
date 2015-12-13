@@ -8,8 +8,8 @@ Generates `UIColor` and `NSColor` from given string.
 import ColorHash
 
 let str = "こんにちは、世界"
-let saturation: CGFloat = 0.30
-let lightness: CGFloat = 0.70
+let saturation = CGFloat(0.30)
+let lightness = CGFloat(0.70)
 
 ColorHash(str, [saturation], [lightness]).color
 ```
